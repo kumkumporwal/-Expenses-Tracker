@@ -1,0 +1,62 @@
+/* RecipeCardUnique.css */
+
+/* --- Card Base Styling --- */
+.unique-recipe-card {
+    border: none !important;
+    border-radius: 12px !important; /* Thoda zyada rounded corners */
+    overflow: hidden;
+    position: relative;
+    /* Initial subtle 3D shadow */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* --- 3D Hover Effect --- */
+.unique-recipe-card:hover {
+    /* Lift up and give a stronger shadow for 3D feel */
+    transform: translateY(-8px); 
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+/* --- Image Styling --- */
+.card-img-top-custom {
+    height: 250px !important; /* Image height thodi badhai */
+    object-fit: cover;
+    /* Image ke neeche halka sa gradient shadow for depth */
+    position: relative;
+    z-index: 1;
+}
+
+/* --- Title and Body Styling --- */
+.unique-card-body {
+    padding: 20px 25px !important;
+}
+
+.unique-card-body .card-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #4a235a; /* A rich color for the title */
+    margin-bottom: 10px;
+}
+
+/* --- Rating and Button Area --- */
+.unique-card-body .rating-area {
+    padding-top: 15px;
+    border-top: 1px solid #eee; /* Rating area ko alag karne ke liye separator */
+}
+
+.unique-card-body .btn-view-recipe {
+    border-radius: 50px; /* Pill-shaped button */
+    font-weight: 600;
+    margin-top: 15px;
+    background-color: #f7b731; /* Golden color button */
+    border-color: #f7b731;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+.unique-card-body .btn-view-recipe:hover {
+    background-color: #e6a82d;
+    border-color: #e6a82d;
+    transform: scale(1.02);
+}

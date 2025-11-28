@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Creamy Tomato Pasta",
+    "image": "",
+    "ingredients": [
+      "200g pasta",
+      "1 cup tomato puree",
+      "1/2 cup cream",
+      "Salt and pepper",
+      "1 tbsp olive oil",
+      "2 cloves garlic, minced"
+    ],
+    "instructions": "Boil pasta. In another pan, heat oil, add garlic. Pour in tomato puree and cook 5 mins. Add cream, season. Mix pasta with sauce."
+  },
+  {
+    "id": 2,
+    "title": "Garlic Butter Shrimp",
+    "image": "https://source.unsplash.com/400x300/?shrimp",
+    "ingredients": [
+      "200g shrimp",
+      "3 cloves garlic",
+      "2 tbsp butter",
+      "1 tbsp lemon juice",
+      "Salt and pepper",
+      "Chopped parsley"
+    ],
+    "instructions": "Melt butter, sauté garlic. Add shrimp, cook till pink. Add lemon juice, season, sprinkle parsley."
+  },
+  {
+    "id": 3,
+    "title": "Chickpea Buddha Bowl",
+    "image": "https://source.unsplash.com/400x300/?buddha-bowl",
+    "ingredients": [
+      "1 cup cooked quinoa",
+      "1/2 cup roasted chickpeas",
+      "1/2 avocado",
+      "Mixed greens",
+      "Tahini dressing"
+    ],
+    "instructions": "In a bowl, layer quinoa, chickpeas, avocado slices, greens. Drizzle with tahini dressing."
+  },
+  {
+    "id": 4,
+    "title": "Banana Pancakes",
+    "image": "https://source.unsplash.com/400x300/?banana-pancake",
+    "ingredients": [
+      "2 ripe bananas",
+      "1 cup oats",
+      "2 eggs",
+      "1 tsp baking powder",
+      "Butter for frying"
+    ],
+    "instructions": "Blend bananas, oats, eggs, and baking powder. Pour batter on pan. Cook both sides till golden. Serve with syrup."
+  },
+  {
+    "id": 5,
+    "title": "Vegan Tacos",
+    "image": "https://source.unsplash.com/400x300/?vegan-tacos",
+    "ingredients": [
+      "Taco shells",
+      "1 cup black beans",
+      "1/2 cup corn",
+      "Diced tomatoes",
+      "Avocado",
+      "Lime juice"
+    ],
+    "instructions": "Mix beans, corn, tomatoes. Fill taco shells. Top with avocado and lime juice. Serve chilled or warm."
+  },
+  {
+    "id": 6,
+    "title": "Paneer Tikka",
+    "image": "https://source.unsplash.com/400x300/?paneer",
+    "ingredients": [
+      "200g paneer cubes",
+      "1/2 cup curd",
+      "1 tsp garam masala",
+      "1 tsp red chili powder",
+      "Salt",
+      "Lemon juice"
+    ],
+    "instructions": "Mix curd with spices and marinate paneer for 1 hour. Skewer and grill/bake until golden."
+  },
+  {
+    "id": 7,
+    "title": "Chicken Curry",
+    "image": "https://source.unsplash.com/400x300/?chicken-curry",
+    "ingredients": [
+      "500g chicken",
+      "2 onions",
+      "2 tomatoes",
+      "Ginger garlic paste",
+      "Spices (turmeric, garam masala, coriander)",
+      "Oil"
+    ],
+    "instructions": "Fry onions, add ginger garlic paste. Add tomatoes, spices, then chicken. Cook until chicken is tender. Add water for gravy."
+  },
+  {
+    "id": 8,
+    "title": "Fruit Smoothie",
+    "image": "https://source.unsplash.com/400x300/?smoothie",
+    "ingredients": [
+      "1 banana",
+      "1/2 cup strawberries",
+      "1/2 cup yogurt",
+      "Honey",
+      "Ice cubes"
+    ],
+    "instructions": "Blend all ingredients until smooth. Serve chilled."
+  },
+  {
+    "id": 9,
+    "title": "Oats Porridge",
+    "image": "https://source.unsplash.com/400x300/?porridge",
+    "ingredients": [
+      "1/2 cup oats",
+      "1 cup milk",
+      "1 tbsp sugar or honey",
+      "Chopped fruits (optional)"
+    ],
+    "instructions": "Cook oats in milk for 5–7 mins. Add sweetener and top with fruits."
+  },
+  {
+    "id": 10,
+    "title": "Masala Dosa",
+    "image": "https://source.unsplash.com/400x300/?dosa",
+    "ingredients": [
+      "Dosa batter",
+      "Boiled potatoes",
+      "Onions",
+      "Mustard seeds",
+      "Curry leaves",
+      "Spices"
+    ],
+    "instructions": "Prepare potato masala. Spread dosa batter on pan. Add filling and fold. Serve with chutney and sambar."
+  }
+]

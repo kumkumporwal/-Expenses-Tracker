@@ -1,0 +1,73 @@
+/* CombinedLayout.css */
+
+/* --- General Text Styles --- */
+.content-section {
+    padding: 0 15px;
+}
+
+/* --- "About Me" Styles (First Section) --- */
+.about-me-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-me-container h1 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: 500;
+    font-size: 3rem; 
+    color: #4a235a; /* Deep purple/maroon color */
+    margin-bottom: 1.5rem;
+}
+
+.about-me-container h2 {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.about-me-container p {
+    font-family: Arial, sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+
+/* --- "I LOVE FOOD!" Styles (Second Section) --- */
+.i-love-food-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f8f8f8; /* Thoda sa background color alag dikhane ke liye */
+}
+
+.i-love-food-container h1 {
+    font-family: Arial, sans-serif; 
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #000;
+    margin-bottom: 1.5rem;
+}
+
+.i-love-food-container p {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 1.1rem; 
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.i-love-food-container .instagram-tag {
+    color: #8c7851; 
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Image common styling */
+.responsive-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px; /* Smooth corners */
+}

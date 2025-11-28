@@ -1,0 +1,72 @@
+/* RecipeHeader.css (Class names from the first attempt) */
+
+.recipe-header-bg {
+  /* Background color */
+  background-color: #794068; 
+  /* Height kam karne ke liye padding adjust kiya gaya hai */
+  padding: 60px 0 60px 0; /* Vertical Padding kam kiya */
+  text-align: center;
+}
+
+.recipe-header-bg h2 {
+  /* Title Styling */
+  font-family: 'Georgia', 'Times New Roman', Times, serif; 
+  font-size: 4rem; 
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 25px; 
+  line-height: 1.1;
+}
+
+.recipe-header-bg .breadcrumb-text {
+  /* Breadcrumb Styling */
+  font-family: Arial, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7); 
+  letter-spacing: 3px; /* Match the photo */
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.recipe-header-bg p {
+  /* Description Text Styling */
+  font-family: 'Georgia', 'Times New Roman', Times, serif; /* Match the photo's elegant font */
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #fff;
+  opacity: 0.9;
+  max-width: 850px; 
+  /* Text aur search bar ke beech ka spacing adjust kiya */
+  margin: 0 auto 30px auto; 
+}
+
+/* Styling for the Search Bar */
+.search-container {
+  /* Overlap ke liye negative margin */
+  margin-top: -30px; 
+  /* Z-index aur position relative search box ko upar laane ke liye */
+  z-index: 100;
+  position: relative; 
+}
+
+.custom-search-input {
+  height: 65px; /* Taller input */
+  font-size: 1.1rem;
+  padding-left: 55px; 
+  /* Appearance styling */
+  border: none !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15) !important;
+  border-radius: 0; 
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #b0b0b0; 
+  font-size: 1.3rem;
+  pointer-events: none;
+  z-index: 10;
+}

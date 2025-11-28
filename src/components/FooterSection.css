@@ -1,0 +1,64 @@
+.custom-footer {
+  background-color: #734064; /* purple background */
+}
+
+.social-icon {
+  color: white;
+  font-size: 1.8rem;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  color: #f8c145; /* hover yellow */
+}
+
+.signup-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.script-text {
+  font-family: "Brush Script MT", cursive;
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin-right: 6px;
+  text-transform: none;
+}
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  height: 48px;
+}
+
+.btn-warning {
+  background-color: #f8b242;
+  border: none;
+  color: white;
+  height: 48px;
+  border-radius: 0;
+}
+
+.btn-warning:hover {
+  background-color: #e49a2a;
+}
+.my-footer-social-icon-circle {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 0.3rem;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.my-footer-social-icon-circle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}

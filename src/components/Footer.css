@@ -1,0 +1,89 @@
+/* Font and colors similar to Pinch of Yum */
+.footer-section {
+  background-color: #ffffff;
+  font-family: "Lora", serif;
+  color: #333333;
+}
+
+.footer-heading {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #4b224b;
+  margin-bottom: 1rem;
+}
+
+.footer-list li {
+  font-size: 0.9rem;
+  color: #333333;
+  margin-bottom: 0.4rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-list li:hover {
+  color: #4b224b;
+}
+
+/* Newsletter box */
+.newsletter-box {
+  background-color: #6b366b;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 4px;
+}
+
+.newsletter-box .signup-text {
+  font-family: "Pacifico", cursive;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.newsletter-box .bold-text {
+  font-family: "Lora", serif;
+  font-weight: 700;
+}
+
+.newsletter-box input {
+  border: none;
+  border-radius: 0;
+}
+
+.newsletter-box input::placeholder {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.newsletter-box button {
+  border: none;
+  border-radius: 0;
+  background-color: #f0b23a;
+  color: #fff;
+}
+
+.newsletter-box button:hover {
+  background-color: #d9982e;
+}
+
+/* Social Icons */
+.social-icons svg {
+  color: #5d2a5d;
+  margin: 0 8px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-icons svg:hover {
+  color: #6e316e;
+}
+
+.footer-section a {
+  color: #4b224b;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
